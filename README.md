@@ -23,7 +23,11 @@ __[[Laboratory_Demo]](https://drive.google.com/open?id=12ec16M583TaLuBa7hfe0d6Lw
 __[[Running_Demo]](https://drive.google.com/open?id=1Q-tlcY9-idc7eCXtwoYZd7heKEzFc66C)__
 
 __[[Pose_Demo]](https://drive.google.com/open?id=1tv9pi5ymSwj6aPyYYOcOFaKC6PwrNMFb)__
+***
 
+### How can you get the datasets object in the real world
+ 
+In __[Datasets_obj](https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/tree/master/ycb%20objects)__  folder you can printing the object texture onto a box or can of the exact size.
 
 
 ## DOPE Installing
