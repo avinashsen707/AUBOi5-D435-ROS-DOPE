@@ -29,6 +29,8 @@ __[[Pose_Demo]](https://drive.google.com/open?id=1tv9pi5ymSwj6aPyYYOcOFaKC6PwrNM
  
 In __[Datasets_obj](https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/tree/master/ycb%20objects)__  folder you can printing the object texture onto a box or can of the exact size.
 
+Download the __[Dataset](https://research.nvidia.com/publication/2018-06_Falling-Things)__ and __[train](https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/dope/scripts/train.py)__ objects to get respective weights.
+***
 
 ## DOPE Installing
 
