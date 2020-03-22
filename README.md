@@ -1,6 +1,8 @@
 # AUBOi5-D435-ROS-DOPE
 Aubo i5 Dual Arm Collaborative Robot - RealSense D435 - 3D Object Pose Estimation - ROS
 
+A package for detecting and estimating the 6- DoF pose of known objects using a novel architecture and data generation pipeline using the state of the art algorithm DOPE in Aubo i5 collaborative robot with Intel Realsense D435i camera. The neural network consists several steps to reﬁne and estimates of the 2D coordinates of projected vertices of each object’s 3D bounding cuboid. These vertices are then used to output the ﬁnal pose using PnP, with known camera intrinsic and object dimensions. The neural network trained only on photorealistic data can attain state of the art results compared with a neural network trained on real world data and  resulting poses are with much needed accuracy for robotic pick and place.
+
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/IMG_20200309_191924_212.jpg" width="80%" height="80%">
 
 
