@@ -6,7 +6,7 @@ A package for detecting and estimating the 6- DoF pose of known objects using a 
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/IMG_20200309_191924_212.jpg" width="80%" height="80%">
 
 
-__[[Laboratory_Demo_Video]](https://drive.google.com/open?id=12ec16M583TaLuBa7hfe0d6LwZ-rZgGPp)__
+__[[Laboratory_Demo_Video]](https://www.youtube.com/embed/7gsZfrnAFLY?autoplay=1&loop=1&playlist=7gsZfrnAFLY)__
 
 ### Development Environment
 - __Ubuntu 16.04.2__
