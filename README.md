@@ -1,4 +1,4 @@
-### Development and Testing of a Deep Learning based Bin Picking System using ROS
+# Development and Testing of a Deep Learning based Bin Picking System using ROS
 
 Aubo i5 Dual Arm Collaborative Robot - RealSense D435 - 3D Object Pose Estimation - ROS
 
@@ -11,22 +11,16 @@ A package for detecting and estimating the 6-DoF pose of known objects using a n
 My purpose with this project is to develop a system that is based on learning the appearance model of objects using convolutional neural networks (CNN) is proposed.
 Using PyTorch deeplearning framework, a 6DoF Poses of objects in the bin is estimated and it has experimented with the usability of depth sensing cameras in operation room lighting. Creation of the 3D object models is done using Blender tool, which is for Generating synthetic training dataset with the help of Unreal Engine(UE4) and NVidia Deep Learning Data Synthesizer(NDDS) software. By Deep Learning the created model, the object poses with adequate accuracy required for semantic grasping by any robot is obtained. The overall system is implemented using ROS framework.
 
+
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_132514.gif" width="70%" height="70%">
 
 __[[Demonstrarion of the Developed Bin Picking system : Link]](https://youtu.be/IGGV9dj_fZs)__
 
-### Development Environment
-- __Ubuntu 16.04.2__
-- __ROS Kinetic__
-
-- __Ubuntu 18.04.1__
-- __ROS Melodic__
-
-***
 
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_135631.gif" width="80%" height="80%">
 
 __[[Pose_Estimation_Demo_Video : Link]](https://youtu.be/9iNDSaG5IdE)__
+
 
 ***
 
@@ -35,9 +29,12 @@ __[[Pose_Estimation_Demo_Video : Link]](https://youtu.be/9iNDSaG5IdE)__
  
 In __[Datasets_obj](https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/tree/master/ycb%20objects)__  folder you can printing the object texture onto a box of the exact size.
 
+
 For more, Download the __[Dataset](https://research.nvidia.com/publication/2018-06_Falling-Things)__ and __[train](https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/dope/scripts/train.py)__ the objects to get respective weights.
 
+
 ***
+
 
 ## Creation of Custom-Dataset-UE4-DOPE
 
@@ -47,12 +44,12 @@ __Please check the [NVIDIA Deep learning Dataset Synthesizer (Synthetic-Data-UE4
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_202902.gif" width="70%" height="70%">
 
 
-# STEP 1 - Download the NDDS Documentation
+### STEP 1 - Download the NDDS Documentation
 
 __[NVIDIA Deep learning Dataset Synthesizer (NDDS) Documentation](https://github.com/NVIDIA/Dataset_Synthesizer/blob/master/Documentation/NDDS.pdf)__
 
 
-# STEP 2 - Installing NDDS
+### STEP 2 - Installing NDDS
 __Windows Specific:__
 
 First, install Visual Studio.
@@ -119,7 +116,7 @@ Note: Nvidia Deep Learning Dataset Synthesizer plugins may only be used within a
 
 ***
 
-# STEP 3 - Installing Blender
+### STEP 3 - Installing Blender
 
 __Download [[Blender]](https://www.blender.org/)__
 
@@ -132,20 +129,33 @@ then import that __fbx__ file into UE4,  __fbx__ file is work in UE4.
 
 ***
 
-# STEP 4 - Run the NDDS
+### STEP 4 - Run the NDDS
 
 Open the Unreal Editor with the `Dataset_Synthesizer/Source/`__NDDS.uproject__, a default level called TestCapturer will load as indicated at the top left hand corner of the 3D view port. This level has a sample scene with a basic simulation capture set up.
 
 __[How to use the UE4 : Link](https://youtu.be/qrhS-UxqNlQ)__
 
 
-# STEP 5 - Train the DOPE model
+### STEP 5 - Train the DOPE model
+
 Training code is also provided but not supported - [train.py](https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/dope/scripts/train.py)
 
 ```
 python train.py --data ./cube/ --outf cube_1214  --gpuids 0 1 --epochs 120 --loginterval 1 --batchsize 32
 
 ```
+
+***
+
+## Development Environment
+- __Ubuntu 16.04.2__
+- __ROS Kinetic__
+
+- __Ubuntu 18.04.1__
+- __ROS Melodic__
+
+
+***
 
 ## DOPE Installing
 
