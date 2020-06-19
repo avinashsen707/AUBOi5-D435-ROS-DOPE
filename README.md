@@ -40,8 +40,7 @@ For more, Download the __[Dataset](https://research.nvidia.com/publication/2018-
 
 __Please check the [NVIDIA Deep learning Dataset Synthesizer (Synthetic-Data-UE4)](https://github.com/NVIDIA/Dataset_Synthesizer)__
 
-<img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_132514.gif" width="70%" height="70%">
-
+<img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_202902.gif" width="70%" height="70%">
 
 
 ## STEP 1 - Download the NDDS Documentation
@@ -120,7 +119,7 @@ Note: Nvidia Deep Learning Dataset Synthesizer plugins may only be used within a
 
 __Download [[Blender]](https://www.blender.org/)__
 
-<img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_132514.gif" width="70%" height="70%">
+<img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_205101.gif" width="70%" height="70%">
 
 __[How to use the Blender : Link](https://youtu.be/bK2NJmRyP6g)__
 
