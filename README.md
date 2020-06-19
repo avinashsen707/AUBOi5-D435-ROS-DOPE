@@ -24,11 +24,9 @@ __[[Demonstrarion of the Developed Bin Picking system : Link]](https://youtu.be/
 
 ***
 
-__[[Running_Demo_Video : Link]](https://youtu.be/kFdxqJA0BTg)__
+<img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_135631.gif" width="80%" height="80%">
 
-<img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/Front%20Screenshot%20from%202020-03-10%2000-47-35.png" width="80%" height="80%">
-
-__[[Pose_Demo_Video : Link]](https://youtu.be/cB5miHZ5tPc)__
+__[[Pose_Estimation_Demo_Video : Link]](https://youtu.be/9iNDSaG5IdE)__
 
 ***
 
@@ -320,7 +318,11 @@ __4. Start rviz node__
 rosrun rviz rviz
 ```
 
-<img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_213033(1).gif" width="70%" height="70%">
+<img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_213033.gif" width="70%" height="70%">
+
+__[[ROS_Implementation_Video : Link]](https://youtu.be/QKuz-MHvrPk)__
+
+***
 
 ## Debugging
 
@@ -342,6 +344,7 @@ rosrun rviz rviz
     * `Add > MarkerArray` to view the cuboids, meshes etc. in 3D.
     * `Add > Camera` to view the RGB Image with the poses and markers from above.
     
+***    
 
 ## Citing
 
