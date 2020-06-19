@@ -18,7 +18,7 @@ Using PyTorch deeplearning framework, a 6DoF Poses of objects in the bin is esti
 
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_132514.gif" width="70%" height="70%">
 
-__[[Demonstrarion of the Developed Bin Picking system : Link]](https://youtu.be/IGGV9dj_fZs)__
+__[[Demonstrarion of the Developed Bin Picking system Video : Link]](https://youtu.be/IGGV9dj_fZs)__
 
 
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_135631.gif" width="80%" height="80%">
@@ -128,7 +128,7 @@ __Download [[Blender]](https://www.blender.org/)__
 
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_205101.gif" width="70%" height="70%">
 
-__[How to use the Blender : Link](https://youtu.be/bK2NJmRyP6g)__
+__[How to use the Blender Video : Link](https://youtu.be/bK2NJmRyP6g)__
 
 Make a 3D model in solidworks or CAD etc.,then import a 3D model in Blender (.stl .dae ...) and export it as a __fbx__ file
 then import that __fbx__ file into UE4,  __fbx__ file is work in UE4.
@@ -138,7 +138,7 @@ then import that __fbx__ file into UE4,  __fbx__ file is work in UE4.
 
 Open the Unreal Editor with the `Dataset_Synthesizer/Source/`__NDDS.uproject__, a default level called TestCapturer will load as indicated at the top left hand corner of the 3D view port. This level has a sample scene with a basic simulation capture set up.
 
-__[How to use the UE4 : Link](https://youtu.be/qrhS-UxqNlQ)__
+__[How to use the UE4 Video : Link](https://youtu.be/qrhS-UxqNlQ)__
 
 
 ### STEP 5 - Train the DOPE model
@@ -299,7 +299,7 @@ Specifically, make sure that the ros package ddynamic_reconfigure is installed. 
   rosrun rviz rvzi
   Add > Image to view the raw RGB image
   ```
-* 
+ 
 
 ***
 
@@ -367,7 +367,6 @@ __[[ROS_Implementation_Video : Link]](https://youtu.be/QKuz-MHvrPk)__
     * `Add > Pose` to view the object coordinate frame in 3D.
     * `Add > MarkerArray` to view the cuboids, meshes etc. in 3D.
     * `Add > Camera` to view the RGB Image with the poses and markers from above.
-* 
 
 
 ***    
