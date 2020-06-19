@@ -320,7 +320,7 @@ __4. Start rviz node__
 rosrun rviz rviz
 ```
 
-<img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_202902.gif" width="70%" height="70%">
+<img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_213033(1).gif" width="70%" height="70%">
 
 ## Debugging
 
