@@ -6,7 +6,11 @@ A package for detecting and estimating the 6-DoF pose of known objects using a n
 
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/IMG_20200309_191924_212.jpg" width="80%" height="80%">
 
+
 ***
+
+
+# Master's Project
 
 My purpose with this project is to develop a system that is based on learning the appearance model of objects using convolutional neural networks (CNN) is proposed.
 Using PyTorch deeplearning framework, a 6DoF Poses of objects in the bin is estimated and it has experimented with the usability of depth sensing cameras in operation room lighting. Creation of the 3D object models is done using Blender tool, which is for Generating synthetic training dataset with the help of Unreal Engine(UE4) and NVidia Deep Learning Data Synthesizer(NDDS) software. By Deep Learning the created model, the object poses with adequate accuracy required for semantic grasping by any robot is obtained. The overall system is implemented using ROS framework.
@@ -24,7 +28,8 @@ __[[Pose_Estimation_Demo_Video : Link]](https://youtu.be/9iNDSaG5IdE)__
 
 ***
 
-### How can you get the datasets object in the real world
+
+## How can you get the datasets object in the real world
  
  
 In __[Datasets_obj](https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/tree/master/ycb%20objects)__  folder you can printing the object texture onto a box of the exact size.
@@ -40,6 +45,7 @@ For more, Download the __[Dataset](https://research.nvidia.com/publication/2018-
 
 
 __Please check the [NVIDIA Deep learning Dataset Synthesizer (Synthetic-Data-UE4)](https://github.com/NVIDIA/Dataset_Synthesizer)__
+
 
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_202902.gif" width="70%" height="70%">
 
@@ -114,11 +120,11 @@ completed.
 
 Note: Nvidia Deep Learning Dataset Synthesizer plugins may only be used within a project (game) -- hosting as engine plugins not yet supported.
 
-***
 
 ### STEP 3 - Installing Blender
 
 __Download [[Blender]](https://www.blender.org/)__
+
 
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_205101.gif" width="70%" height="70%">
 
@@ -127,7 +133,6 @@ __[How to use the Blender : Link](https://youtu.be/bK2NJmRyP6g)__
 Make a 3D model in solidworks or CAD etc.,then import a 3D model in Blender (.stl .dae ...) and export it as a __fbx__ file
 then import that __fbx__ file into UE4,  __fbx__ file is work in UE4.
 
-***
 
 ### STEP 4 - Run the NDDS
 
@@ -145,7 +150,9 @@ python train.py --data ./cube/ --outf cube_1214  --gpuids 0 1 --epochs 120 --log
 
 ```
 
+
 ***
+
 
 ## Development Environment
 - __Ubuntu 16.04.2__
@@ -156,6 +163,7 @@ python train.py --data ./cube/ --outf cube_1214  --gpuids 0 1 --epochs 120 --log
 
 
 ***
+
 
 ## DOPE Installing
 
@@ -181,7 +189,9 @@ __Step 3: Install ROS dependencies__
 
 __Step 4: Download [the weights](https://drive.google.com/open?id=1DfoA3m_Bm0fW8tOWXGVxi4ETlLEAgmcg) and save them to the `weights` folder, *i.e.*, `~/catkin_ws/src/dope/weights/`.__
 
+
 ***
+
 
 ## ROS Wrapper for Intel® RealSense D435 - Ubuntu 16.04_ROS Kinetic
 
@@ -215,6 +225,7 @@ Specifically, make sure that the ros package ddynamic_reconfigure is installed. 
     catkin_make install
     echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
     source ~/.bashrc
+
 
 ## ROS Wrapper for Intel® RealSense D435 - Ubuntu 18.04_ROS Melodic
 
@@ -288,10 +299,11 @@ Specifically, make sure that the ros package ddynamic_reconfigure is installed. 
   rosrun rviz rvzi
   Add > Image to view the raw RGB image
   ```
-
-
+* 
 
 ***
+
+
 ## Running
 
 __1. Start ROS master__
@@ -332,7 +344,9 @@ rosrun rviz rviz
 
 __[[ROS_Implementation_Video : Link]](https://youtu.be/QKuz-MHvrPk)__
 
+
 ***
+
 
 ## Debugging
 
@@ -353,8 +367,11 @@ __[[ROS_Implementation_Video : Link]](https://youtu.be/QKuz-MHvrPk)__
     * `Add > Pose` to view the object coordinate frame in 3D.
     * `Add > MarkerArray` to view the cuboids, meshes etc. in 3D.
     * `Add > Camera` to view the RGB Image with the poses and markers from above.
-    
+* 
+
+
 ***    
+
 
 ## Citing
 
