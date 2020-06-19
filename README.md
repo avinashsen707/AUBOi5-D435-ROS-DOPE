@@ -6,8 +6,9 @@ A package for detecting and estimating the 6-DoF pose of known objects using a n
 
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/IMG_20200309_191924_212.jpg" width="80%" height="80%">
 
-
 __[[Demonstrarion of the Developed Bin Picking system]](https://youtu.be/IGGV9dj_fZs)__
+
+<img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_132514.gif" width="70%" height="70%">
 
 ### Development Environment
 - __Ubuntu 16.04.2__
@@ -17,15 +18,15 @@ __[[Demonstrarion of the Developed Bin Picking system]](https://youtu.be/IGGV9dj
 - __ROS Melodic__
 ***
 
+__[[Running_Demo_Video]](https://youtu.be/kFdxqJA0BTg)__
 
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/Front%20Screenshot%20from%202020-03-10%2000-47-35.png" width="80%" height="80%">
+
+__[[Pose_Demo_Video]](https://youtu.be/cB5miHZ5tPc)__
 
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/Back%20Screenshot%20from%202020-03-10%2000-48-08.png" width="80%" height="80%">
 
 
-__[[Running_Demo_Video]](https://youtu.be/kFdxqJA0BTg)__
-
-__[[Pose_Demo_Video]](https://youtu.be/cB5miHZ5tPc)__
 ***
 
 ### How can you get the datasets object in the real world
