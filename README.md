@@ -1,4 +1,4 @@
-# Development and Testing of a Deep Learning based Bin Picking System using ROS
+# Development and Evaluation of a Deep Learning based Robotic Bin Picking Vision System using ROS
 
 Aubo i5 Dual Arm Collaborative Robot - RealSense D435 - 3D Object Pose Estimation - ROS
 
