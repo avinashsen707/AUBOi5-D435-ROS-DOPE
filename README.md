@@ -18,7 +18,7 @@ Using PyTorch deeplearning framework, a 6DoF Poses of objects in the bin is esti
 
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_132514.gif" width="70%" height="70%">
 
-__[[Demonstrarion of the Developed Bin Picking system Video : Link]](https://youtu.be/IGGV9dj_fZs)__
+__[[Demonstrarion of the Developed Bin Picking Vision system Video : Link]](https://youtu.be/IGGV9dj_fZs)__
 
 
 <img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_135631.gif" width="80%" height="80%">
