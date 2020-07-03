@@ -10,7 +10,7 @@ A package for detecting and estimating the 6-DoF pose of known objects using a n
 ***
 
 
-# Master's Project
+# Master Research Project
 
 My purpose with this project is to develop a system that is based on learning the appearance model of objects using convolutional neural networks (CNN) is proposed.
 Using PyTorch deeplearning framework, a 6DoF Poses of objects in the bin is estimated and it has experimented with the usability of depth sensing cameras in operation room lighting. Creation of the 3D object models is done using Blender tool, which is for Generating synthetic training dataset with the help of Unreal Engine(UE4) and NVidia Deep Learning Data Synthesizer(NDDS) software. By Deep Learning the created model, the object poses with adequate accuracy required for semantic grasping by any robot is obtained. The overall system is implemented using ROS framework.
