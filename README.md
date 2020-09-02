@@ -393,6 +393,6 @@ Copyright (C) 2018 NVIDIA Corporation. All rights reserved. Licensed under the [
 __[DOPE](https://github.com/NVlabs/Deep_Object_Pose) - Deep Object Pose Estimation (DOPE) – ROS inference (CoRL 2018)__
     
 ## Acknowledgement
-
-This work has been supported by Nodal Centre for Robotics and Artificial Research (NCRAI) of Government Engineering College, Thrissur. Project development, subsequent testing and Evaluations are held on this laboratory.
+### Nodal Centre for Robotics and Artificial Research (NCRAI)
+This work has been supported by __[Nodal Centre for Robotics and Artificial Research (NCRAI)](https://github.com/Nodal-Centre-for-Robotics-and-AI-GECT)__ of Government Engineering College, Thrissur. Project development, subsequent testing and Evaluations are held on this laboratory.
 Nodal Center for Robotics and Artificial Intelligence is being established at Government Engineering College Thrissur with two fold objective of 1) Providing facilities for frontline research in Robotics and AI 2) Organizing and Training and skill development programs for Technical Institutes in the field of Robotics and AI. The facility is envisaged to be shared by various Colleges, Polytechnics and Technical High Schools under Department of Technical education Kerala and function as center of excellence in Robotics and AI. The center was started functioning in June 2019 is funded by Higher Education Department, Government of Kerala.
